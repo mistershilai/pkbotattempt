@@ -3,7 +3,6 @@ import urllib.parse
 from collections import namedtuple
 from discord.ext import commands
 
-from src import secret
 from src.main import get_global_state
 
 
