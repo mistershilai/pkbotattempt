@@ -77,5 +77,5 @@ def reload_extensions(bot):
 
 
 load_extensions(client)
-client.run(secret.TOKEN)
+client.run(DISCORD_TOKEN)
 
