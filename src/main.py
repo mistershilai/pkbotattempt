@@ -1,5 +1,4 @@
 from collections import namedtuple
-import psycopg2
 
 Bonus = namedtuple('Bonus',
                    'id,number,round,category_id,subcategory_id,quinterest_id,tournament_id,leadin,created_at,updated_at,errors_count,formatted_leadin')
